@@ -1,3 +1,22 @@
 <resources>
-    <string name="app_name">SensusPenduduk</string>
+    <string name="app_name">Administrasi Penduduk</string>
+    <string name="entry_Keluarga">Tambah Keluarga</string>
+    <string name="deskripsi_no_item">Yuk kita sensus!</string>
+    <string name="nomorKartuKeluarga">Nomor Kartu Keluarga*</string>
+    <string name="ayah">Nama Ayah*</string>
+    <string name="ibu">Nama Ibu*</string>
+    <string name="anak">Nama Anak*</string>
+    <string name="alamat">Alamat Keluarga*</string>
+    <string name="rww">Rukun Warga*</string>
+    <string name="required_field">* required field</string>
+    <string name="btn_submit">Submit</string>
+    <string name="detail_Keluarga">Detail Keluarga</string>
+    <string name="edit_Keluarga">Edit Keluarga</string>
+    <string name="back">Kembali</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="delete">Hapus</string>
+    <string name="update">Edit</string>
+    <string name="attention">Perhatian</string>
+    <string name="tanya">Apakah anda yakin menghapus ini?</string>
 </resources>
