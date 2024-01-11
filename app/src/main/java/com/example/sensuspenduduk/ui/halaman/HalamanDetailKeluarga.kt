@@ -19,6 +19,7 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.rememberCoroutineScope
@@ -28,9 +29,15 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.sensuspenduduk.R
 import com.example.sensuspenduduk.data.Keluarga
 import com.example.sensuspenduduk.navigasi.DestinasiNavigasi
+import com.example.sensuspenduduk.navigasi.KeluargaTopAppBar
+import com.example.sensuspenduduk.ui.model.DetailViewModel
+import com.example.sensuspenduduk.ui.model.ItemDetailUiState
+import com.example.sensuspenduduk.ui.model.PenyediaViewModel
+import com.example.sensuspenduduk.ui.model.toKeluarga
 import kotlinx.coroutines.launch
 
 object DestinasiDetail : DestinasiNavigasi {
