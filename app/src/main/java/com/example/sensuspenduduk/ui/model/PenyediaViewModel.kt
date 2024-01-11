@@ -29,5 +29,5 @@ object PenyediaViewModel {
     }
 }
 
-fun CreationExtras.aplikasiKeluarga(): AplikasiSensus =
-    (this[ViewModelProvider.AndroidViewModelFactory.APPLICATION_KEY] as AplikasiSensus)
+fun CreationExtras.aplikasiKeluarga(): AplikasiKeluarga =
+    (this[ViewModelProvider.AndroidViewModelFactory.APPLICATION_KEY] as AplikasiKeluarga)
